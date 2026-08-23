@@ -1,0 +1,5 @@
+# dsh-rp-composer bundle patch: 把插件行插进 web profile roster。
+# Node 半是空壳（lib/index.js），浏览器半经 package.json 的 dsh.client 声明加载。
+- insert:
+    - id: rp-composer
+      name: 'dsh-rp-composer'

@@ -1,0 +1,12 @@
+{
+  "name": "dsh-rp-composer",
+  "description": "三段式 RP 输入面板（台词/动作/心理 → 模板组装发送）",
+  "version": "0.1.0",
+  "entry": {
+    "name": "dsh-rp-composer",
+    "inject": []
+  },
+  "client": {
+    "platform": "web"
+  }
+}
