@@ -1,6 +1,6 @@
 {
   "name": "dsh-rp-composer",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "private": true,
   "description": "三段式 RP 输入面板：台词/动作/心理分框填写，按模板组装后发送",
   "main": "./lib/index.js",

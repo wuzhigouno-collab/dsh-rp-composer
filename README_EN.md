@@ -9,7 +9,7 @@ In RP conversations, a single player message typically mixes **dialogue**, **act
 ## Features
 
 - **Three-field input**: dialogue / action / thought boxes; combine freely, empty fields are omitted
-- **Template assembly**: action → `【…】`, dialogue → `“…”`, thought → `（…）` — directly compatible with RP input-parsing protocols (e.g. the Gent agent preset)
+- **Template assembly**: no symbol wrapping — each component is labeled in plain Chinese ("台词（NPC 能听到）：…"), directly compatible with RP input-parsing protocols (e.g. the Gent agent preset)
 - **Two layouts**: Brief (horizontal single-line) / Detail (vertical multi-line textareas, larger visible area, Ctrl+Enter to send)
 - **Collapsible**: folds into a slim title bar; layout & collapse state persist in localStorage
 - **Zero-intrusion**: mounts on the official `conversation.input.dock` slot; the default composer stays untouched and other RP plugins (Agent RP, Portable Tavern) are unaffected
